@@ -1,0 +1,24 @@
+{
+  "name": "arabic-document-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Read Saudi invoices, national IDs, contracts and forms \u2014 including photographs, stamps, handwriting and Hijri dates \u2014 into structured data.",
+  "scripts": {
+    "start": "node examples/node/index.mjs",
+    "stream": "node examples/node/stream.mjs"
+  },
+  "keywords": [
+    "saudi-arabia",
+    "arabic",
+    "document-ai",
+    "ocr",
+    "arabic-ocr",
+    "invoice-processing",
+    "hijri",
+    "idp",
+    "enterprise-ai",
+    "zatca"
+  ],
+  "license": "MIT"
+}
