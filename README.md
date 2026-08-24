@@ -21,7 +21,7 @@ an approval handwritten in the margin, and scans nobody ever catalogued.
 
 You do not have to clone anything to see whether this works for you. The same
 engine this repository calls is running at **[app.voho.ai/document-ai](https://app.voho.ai/document-ai)** —
-Extract a real document, in the browser, in about a minute.
+extract a real document, in the browser, in about a minute.
 
 New accounts start with **$25 of credit**, and one balance and one API key
 cover every Voho product: Document AI, and the five beside it.
