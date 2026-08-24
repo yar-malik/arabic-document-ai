@@ -45,29 +45,30 @@ with you: [talk to us](https://voho.ai/book-demo).
 
 ## Quick start
 
-You need a Voho API key. Create one at [app.voho.ai](https://app.voho.ai) under **API Tokens**.
+One key, one command, about a minute. Get a key at
+[app.voho.ai/tokens](https://app.voho.ai/tokens) — new accounts start with
+**$25 of credit**, which is enough to run this many times over.
 
 ```bash
 git clone https://github.com/yar-malik/arabic-document-ai.git
 cd arabic-document-ai
-cp .env.example .env      # then paste your key into .env
+export VOHO_API_KEY=voho_sk_live_...
 ```
 
-### Node.js
+### Node — no dependencies, Node 18+
 
 ```bash
-npm install
-node examples/node/index.mjs
+npm start
+# or: node examples/node/index.mjs [your-file.pdf]
 ```
 
-### Python
+### Python — no dependencies, Python 3.9+
 
 ```bash
-pip install -r requirements.txt
-python examples/python/main.py
+python examples/python/main.py [your-file.pdf]
 ```
 
-Both examples read a bilingual Saudi supplier invoice and pull out the VAT number, PO number and totals.
+Either one reads a bilingual Saudi tax invoice and prints every field it found, with a confidence on each.
 
 ## Arabic voices
 
